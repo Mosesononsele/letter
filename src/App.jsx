@@ -1,5 +1,6 @@
 import { useState } from "react";
 import mylovestoryImg from './assets/mylovestoryImg.jpg'
+import mylovestoryImg2 from './assets/mylovestoryImg2.jpg'
 function App() {
   const [name, setName] = useState("");
   function handleClick() {
@@ -44,7 +45,10 @@ function App() {
   return (
     <>
       <div className="container text-center">
-        <h2>Hi Welcome</h2>
+        <div>
+          <img src={mylovestoryImg2} alt="" className="w-50 img-fluid border border-5 border-primary" />
+          <h1 className="text-danger"> MY FAVORITE HUMAN </h1>
+        </div>
         <p> {name} </p>
         <button className="btn btn btn-primary btn-lhg" onClick={handleClick}>
           {" "}
