@@ -1,6 +1,10 @@
 import { useState } from "react";
 import mylovestoryImg from './assets/mylovestoryImg.jpg'
 import mylovestoryImg2 from './assets/mylovestoryImg2.jpg'
+import mixPhoto from './assets/MixPhoto.jpg'
+import chocolateImg from './assets/ChocolatePhoto2.jpg'
+
+
 function App() {
   const [name, setName] = useState("");
   function handleClick() {
@@ -8,14 +12,14 @@ function App() {
       setName("Hello My Dream Girl, welcome to my web");
     } else if (name === "Hello My Dream Girl, welcome to my web") {
       setName(
-        "I just wanna let you know that i love you my baby. i have a little piece of gift for you, just to let you know that i care so much about you and your wellbeing, i pray we grow together and work together to be at the top in the nearest future. Click on the BLUE BUTTON FOR NRXT PAGE"
+        "My purpose of this is to make my intentions known to you. CLICK ON THE BLUE BUTTON AGAIN TO GO TO THE NEXT APGE"
       );
-    } else if (
+    } else if ( 
       name ===
-      "I just wanna let you know that i love you my baby. i have a little piece of gift for you, just to let you know that i care so much about you and your wellbeing, i pray we grow together and work together to be at the top in the nearest future. Click on the BLUE BUTTON FOR NRXT PAGE"
+      "My purpose of this is to make my intentions known to you. CLICK ON THE BLUE BUTTON AGAIN TO GO TO THE NEXT APGE"
     ) {
       setName(
-        "Hey my Dream Girl, i want you to know you are WORTH KEEPING. click on the RED BUTTON TO SEE WHY I SAID SO "
+        "My Sweet Chocolate, you are so gorgouse and your smile light up my world, that's why i call you my Moonlight🥰🥰. NOW CLICK ON THE RED BUTTON TO VIEW MAIN CONTENT"
       );
       // }else if(name === 'Socrates'){
       //   setName('Genius')
@@ -25,38 +29,43 @@ function App() {
   function handleToggleName() {
     if (
       name ===
-      "Hey my Dream Girl, i want you to know you are WORTH KEEPING. click on the RED BUTTON TO SEE WHY I SAID SO "
+      "My Sweet Chocolate, you are so gorgouse and your smile light up my world, that's why i call you my Moonlight🥰🥰. NOW CLICK ON THE RED BUTTON TO VIEW MAIN CONTENT"
     ) {
       setName(
-        "YOU ARE  WORTH, KEEPING, Why I Want You as My Girlfriend and Wife. From the moment I met you, I knew that you were someone special. Your kind heart, your beautiful smile, and your infectious laugh all captivated me.  But it is not just your outer beauty that has me hooked - it is the incredible person you are on the inside, too.  You are worth keeping because of your unwavering optimism and your ability to light up even the darkest of rooms.   You are worth keeping because of your compassion, your empathy, and your unrelenting support. You are worth keeping because you make me feel seen, heard, and loved in ways I never thought possible. As my girlfriend, you bring joy and excitement to my life every single day. You are my rock, my confidante, and my best friend. You make me feel like I can conquer the world with you by my side. And as my future wife, I know that you will be an amazing partner and companion for all of life  adventures. You will be an incredible mother to our children, and a constant source of love and encouragement. You will be my forever home, my safe haven, and my soulmate.I promise to always cherish, support, and adore you, through every moment and every adventure. I promise to be your rock, your confidante, and your best friend. I promise to love you for all eternity, and to make you feel like the queen of my heart, every single day.You are worth keeping, my love. Forever and always. click the RED BUTTON AGAIN"
+        "Hi Victoria(My Chocolate). I wanted to take a moment to let you know how much I have enjoyed getting to know you over the past week. From the moment we met, I felt a spark and I cant ignore the connection we share. Your kindness, intelligence, and beauty (inside and out) have captivated me, and I find myself thinking about you more and more each day. I love the way you make me laugh, the way I feel whenever I think of you. I want you to know that my intentions are genuine and true. I am not looking for anything casual or temporary , I am looking for something real and meaningful. And I believe that something special is what we have. So, I wanted to ask you... will you be my girlfriend? I promise to always be there for you, to listen to you, to support you, and to make you feel loved and appreciated every day. I hope you feel the same way, and I cant wait to hear your answer. click the RED BUTTON AGAIN"
       );
     } else if (
       name ===
-      "YOU ARE  WORTH, KEEPING, Why I Want You as My Girlfriend and Wife. From the moment I met you, I knew that you were someone special. Your kind heart, your beautiful smile, and your infectious laugh all captivated me.  But it is not just your outer beauty that has me hooked - it is the incredible person you are on the inside, too.  You are worth keeping because of your unwavering optimism and your ability to light up even the darkest of rooms.   You are worth keeping because of your compassion, your empathy, and your unrelenting support. You are worth keeping because you make me feel seen, heard, and loved in ways I never thought possible. As my girlfriend, you bring joy and excitement to my life every single day. You are my rock, my confidante, and my best friend. You make me feel like I can conquer the world with you by my side. And as my future wife, I know that you will be an amazing partner and companion for all of life  adventures. You will be an incredible mother to our children, and a constant source of love and encouragement. You will be my forever home, my safe haven, and my soulmate.I promise to always cherish, support, and adore you, through every moment and every adventure. I promise to be your rock, your confidante, and your best friend. I promise to love you for all eternity, and to make you feel like the queen of my heart, every single day.You are worth keeping, my love. Forever and always. click the RED BUTTON AGAIN"
+      "Hi Victoria(My Chocolate). I wanted to take a moment to let you know how much I have enjoyed getting to know you over the past week. From the moment we met, I felt a spark and I cant ignore the connection we share. Your kindness, intelligence, and beauty (inside and out) have captivated me, and I find myself thinking about you more and more each day. I love the way you make me laugh, the way I feel whenever I think of you. I want you to know that my intentions are genuine and true. I am not looking for anything casual or temporary , I am looking for something real and meaningful. And I believe that something special is what we have. So, I wanted to ask you... will you be my girlfriend? I promise to always be there for you, to listen to you, to support you, and to make you feel loved and appreciated every day. I hope you feel the same way, and I cant wait to hear your answer. click the RED BUTTON AGAIN"
     ) {
-      setName("Every moment I spend with you is a dream come true. You are the sunshine that brightens my day and the stars that light up my night. Your love is the rhythm that makes my heart sing, and I am forever grateful to have you by my side.  Your smile is the most beautiful thing I have ever seen, and your laughter is music to my ears. Your kindness, intelligence, and grace inspire me every day to be a better person. Your touch ignites a fire within me, and your love is the air I breathe.  You are my forever companion, my partner in every sense of the word. Together, let us create a love story that will last a lifetime. I promise to always cherish, support, and adore you, through every moment and every adventure Click the RED BUTTON AGAIN.");
-    } else if (name === "Every moment I spend with you is a dream come true. You are the sunshine that brightens my day and the stars that light up my night. Your love is the rhythm that makes my heart sing, and I am forever grateful to have you by my side.  Your smile is the most beautiful thing I have ever seen, and your laughter is music to my ears. Your kindness, intelligence, and grace inspire me every day to be a better person. Your touch ignites a fire within me, and your love is the air I breathe.  You are my forever companion, my partner in every sense of the word. Together, let us create a love story that will last a lifetime. I promise to always cherish, support, and adore you, through every moment and every adventure Click the RED BUTTON AGAIN.") {
-      setName("I WANT TO ENCOURAGE U WITH THIS PIECE OF WORDS. I know things have been tough lately, and it's okay to feel overwhelmed. But please do not give up on us, and don't give up on your passions. You are an incredible person with so much to offer the world. Remember why we started this journey together in the first place? We had hopes, dreams, and a desire to build a life filled with love, laughter, and adventure. Do not let the hard times define us - let us use them as an opportunity to grow stronger, closer, and more resilient.  Your passions and interests are what make you unique and beautiful. Don't let anyone or anything dull your sparkle. Keep pursuing your dreams, even when it feels impossible. You got this, and I have got your back.  We are in this together, always. I believe in us, and I believe in you. Let us hold hands, take a deep breath, and face whatever comes our way with courage and hope. You are loved, you are valued, and you are enough. Never give up on yourself, and never give up on us. We are worth fighting for. I love you my sugar momma❤️❤️");
-    } else if (name === "I WANT TO ENCOURAGE U WITH THIS PIECE OF WORDS. I know things have been tough lately, and it's okay to feel overwhelmed. But please do not give up on us, and don't give up on your passions. You are an incredible person with so much to offer the world. Remember why we started this journey together in the first place? We had hopes, dreams, and a desire to build a life filled with love, laughter, and adventure. Do not let the hard times define us - let us use them as an opportunity to grow stronger, closer, and more resilient.  Your passions and interests are what make you unique and beautiful. Don't let anyone or anything dull your sparkle. Keep pursuing your dreams, even when it feels impossible. You got this, and I have got your back.  We are in this together, always. I believe in us, and I believe in you. Let us hold hands, take a deep breath, and face whatever comes our way with courage and hope. You are loved, you are valued, and you are enough. Never give up on yourself, and never give up on us. We are worth fighting for. I love you my sugar momma❤️❤️") {
-      setName( <img src={mylovestoryImg} alt="" className="img-fluid w-100" /> );
-    }
-  }
+      setName("I know you would care to know if I have a girlfriend currently or not, I won't lie to you, I was actually asking a girl out here in Lagos before I met you, though she was very interested, but she kept procrastinating for the reason best known to her and for the fact that she said she wants to take things slow due to the fact that her previous relationship didn't favour her, I really never had any problem with that, we have been talking over a month plus. The other day I came back from travel, she actually took my phone with the excuse that she wanted to use it to snap, then she went straight to my call log and saw that I saved a number with Chocolate 🍫🥰, she got super jealous and picked offense, she asked me who is that person, and said sheybi I told her that I never had anyone, that she has finally caught me, that I went to Edo state to visit my girlfriend I saved with chocolate 🍫🥰 and lied to her that I went for school purpose. I tried my best to calm her down that day, and explain to her but she never cared to listen, saying all guys are scum, they are all the same, they lie and cheat and all sort of things, and I was like, we are not even dating yet, nothing attached yet, we were only in talking stage as  she hasn't even come to conclusions as she told me she would think about it for over such long time frame of which I never even picked any offense but just the little misunderstanding she never gave me time to even explain to her how came about the number that we were just friends who met that day on my way back from Ekpoma, she ended everything and I had to let go cos I believe everything happens for a reason and also that was a sign that she was a highly emotionally damaged girl who her past has actually made her reason and judge differently, so I don't also blame her , it could be her past that made her so. I know I am not supposed to tell you all these, but I just feel like telling you and coming plain to you. So you also know that I am single and not going to deceive you for any reason.");
+    } else if (name === "I know you would care to know if I have a girlfriend currently or not, I won't lie to you, I was actually asking a girl out here in Lagos before I met you, though she was very interested, but she kept procrastinating for the reason best known to her and for the fact that she said she wants to take things slow due to the fact that her previous relationship didn't favour her, I really never had any problem with that, we have been talking over a month plus. The other day I came back from travel, she actually took my phone with the excuse that she wanted to use it to snap, then she went straight to my call log and saw that I saved a number with Chocolate 🍫🥰, she got super jealous and picked offense, she asked me who is that person, and said sheybi I told her that I never had anyone, that she has finally caught me, that I went to Edo state to visit my girlfriend I saved with chocolate 🍫🥰 and lied to her that I went for school purpose. I tried my best to calm her down that day, and explain to her but she never cared to listen, saying all guys are scum, they are all the same, they lie and cheat and all sort of things, and I was like, we are not even dating yet, nothing attached yet, we were only in talking stage as  she hasn't even come to conclusions as she told me she would think about it for over such long time frame of which I never even picked any offense but just the little misunderstanding she never gave me time to even explain to her how came about the number that we were just friends who met that day on my way back from Ekpoma, she ended everything and I had to let go cos I believe everything happens for a reason and also that was a sign that she was a highly emotionally damaged girl who her past has actually made her reason and judge differently, so I don't also blame her , it could be her past that made her so. I know I am not supposed to tell you all these, but I just feel like telling you and coming plain to you. So you also know that I am single and not going to deceive you for any reason.") {
+      setName("I met you at the stage of my life where I am deeply ready to go into a relationship and be committed, it was indeed a right time and our meeting seems Devine to me, the way I liked you even at first sight, the way we could easily get along and the way my heart melt for you since that day until now, thinking of you every minute, every hour and everyday! you will make me  the happiest and luckiest  guy ever if you really give me a chance to your life and lets do life together. 🥰❤️❤️🥰");
+    } else if (name === "I met you at the stage of my life where I am deeply ready to go into a relationship and be committed, it was indeed a right time and our meeting seems Devine to me, the way I liked you even at first sight, the way we could easily get along and the way my heart melt for you since that day until now, thinking of you every minute, every hour and everyday! you will make me  the happiest and luckiest  guy ever if you really give me a chance to your life and lets do life together. 🥰❤️❤️🥰") {
+      setName(<> <img src={chocolateImg} alt="" className="img-fluid w-100" /> </> );
+     
+    } //else if (name === <> <img src={chocolateImg} alt="" className="img-fluid w-100" /> </> );
+  //   setName( <h1>I Love You My Moonlight</h1> 
+  // )
+     
+    } 
+ 
 
   return (
     <>
       <div className="container text-center">
         <div>
-          <img src={mylovestoryImg2} alt="" className="w-50 img-fluid border border-5 border-primary" />
+          <img src={mixPhoto} alt="" className="w-50 img-fluid border border-5 border-primary" />
           <h1 className="text-danger"> MY FAVORITE HUMAN </h1>
         </div>
         <p> {name} </p>
         <button className="btn btn btn-primary btn-lhg" onClick={handleClick}>
           {" "}
-          click to show name
+          Read 
         </button>
-        <button className="btn btn-danger btnlg" onClick={handleToggleName}>
+        <button className="btn rounde btn-danger btnlg" onClick={handleToggleName}>
           {" "}
-          click to change name{" "}
+          click to read{" "}
         </button>
       </div>
     </>
